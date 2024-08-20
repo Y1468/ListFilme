@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Api",
-    "slug": "Api",
+    "name": "ListFilmes",
+    "slug": "ListFilmes",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ivan1000.ListFilmes"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ivan1000.ListFilmes"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "6e4c939d-3e6b-4c03-9e78-c9c29f69bce2"
+      }
     }
   }
 }
